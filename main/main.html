@@ -1,5 +1,10 @@
 <h1>Hello {{vm.name | reverse}} !</h1>
 
+<p>{{vm.date1 | dateSuffix:arg1:arg2 }}</p>
+<p>{{vm.date2 | dateSuffix}}</p>
+<p>{{vm.date3 | dateSuffix}}</p>
+<p>{{vm.date4 | dateSuffix}}</p>
+
 <ul>
     <li ng-repeat="film in vm.films">{{film.title | reverse}}</li>
 </ul>
