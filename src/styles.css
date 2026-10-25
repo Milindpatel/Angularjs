@@ -1,0 +1,41 @@
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  background: #0b0d17;
+  color: #e8e8e8;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+a {
+  color: #ffe81f;
+}
+
+.hint,
+.date,
+.meta {
+  color: #9aa0b4;
+}
+
+.films {
+  padding-left: 1.2rem;
+  line-height: 2;
+}
+
+.date {
+  margin-left: 0.5rem;
+  font-size: 0.9em;
+}
+
+.crawl {
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+.error {
+  color: #ff8a80;
+}
